@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Test Suite 2">
+  <test thread-count="5" verbose="2" name="Orange Test 2">
+    <classes>
+      <class name="orange.qa.hrm.tests.LoginPageTest">
+        <methods>
+          <exclude name="verifyTitle"/>  
+        </methods>
+      </class> <!-- orange.qa.hrm.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
